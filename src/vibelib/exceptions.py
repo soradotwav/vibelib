@@ -1,14 +1,26 @@
+"""Custom exceptions for VibeLib operations."""
+
+
 class VibeLibError(Exception):
-    """Base exception for VibeLib operations."""
+    """Base exception for all VibeLib operations."""
+    pass
+
 
 class ConfigurationError(VibeLibError):
-    """Configuration-related errors."""
+    """Raised when there are configuration-related errors."""
+    pass
+
 
 class APIError(VibeLibError):
-    """API communication errors."""
+    """Raised when API communication fails."""
+    pass
+
 
 class ParseError(VibeLibError):
-    """Response parsing errors."""
+    """Raised when AI response parsing fails."""
+    pass
+
 
 class ValidationError(VibeLibError):
-    """Input validation errors."""
+    """Raised when input validation fails."""
+    pass
