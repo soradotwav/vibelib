@@ -28,7 +28,7 @@ from .operations import BasicService, ListService, SortingService, StringService
 
 logger = logging.getLogger(__name__)
 
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 __all__ = [
     # Core functions
     "sort", "max", "min", "sum", "abs",

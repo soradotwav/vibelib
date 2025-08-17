@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="vibelib",
-    version="1.0.3",
+    version="1.0.4",
     author="soradotwav",
     author_email="dev@soradotwav.com",
     description="AI-powered computational operations",

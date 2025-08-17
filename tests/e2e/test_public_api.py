@@ -45,7 +45,7 @@ class TestPublicAPIBasics:
         """Test that version attribute exists and is properly formatted."""
         assert hasattr(vibelib, '__version__')
         assert isinstance(vibelib.__version__, str)
-        assert vibelib.__version__ == "1.0.3"
+        assert vibelib.__version__ == "1.0.4"
 
     def test_all_attribute_completeness(self):
         """Test that __all__ contains all expected exports."""
